@@ -1,0 +1,94 @@
+@import "modules/reset"
+@import "partials/general"
+
+/* Переменные */
+$xxxl: 96px
+$xxl: 72px
+$xl: 32px
+$l: 24px
+$m: 16px
+$s: 8px
+$xs: 4px
+
+.uppercase
+	text-transform: uppercase
+
+.center
+	text-align: center
+
+.header
+	&__title
+		font-size: 26px
+		font-weight: bold
+		margin-bottom: $xl
+		line-height: 30px
+
+		&--center
+			text-align: center
+
+	&__data
+		text-align: right
+		width: 100%
+		margin-bottom: $xl
+
+		& tr td
+			width: 50%
+
+	&__whom
+		font-weight: bold
+
+	&__address
+		font-style: italic
+
+	&__who
+		margin-top: $m
+
+
+.page
+	&__inner
+		padding: $xxl $xl $xxl $xxxl
+
+
+.content
+	clear: both
+	text-align: justify
+
+	&__title
+		font-size: 22px
+		font-weight: normal
+		margin-bottom: $m
+		line-height: 30px
+
+		&--center
+			text-align: center
+
+	&__subtitle
+		font-weight: bold
+		margin-bottom: $m
+
+		&--center
+			text-align: center
+
+	& p
+		margin-bottom: $xs
+		text-indent: $l
+
+	&__list
+		text-align: left
+		margin-left: $l
+		margin-bottom: $xs
+		list-style: decimal
+
+		& li
+			margin-left: $xl
+			margin-bottom: $s
+
+.table
+	width: 100%
+
+	&--signature
+		margin-top: $xxl
+		text-align: center
+
+		& tr td
+			padding: $l

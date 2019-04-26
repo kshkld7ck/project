@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="round-delete-24px" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#e84a4a}
+        </style>
+    </defs>
+    <path id="Path_137" d="M0 0h24v24H0z" class="cls-1" data-name="Path 137"/>
+    <path id="Path_138" d="M6 19a2.006 2.006 0 0 0 2 2h8a2.006 2.006 0 0 0 2-2V9a2.006 2.006 0 0 0-2-2H8a2.006 2.006 0 0 0-2 2zM18 4h-2.5l-.71-.71a1.009 1.009 0 0 0-.7-.29H9.91a1.009 1.009 0 0 0-.7.29L8.5 4H6a1 1 0 0 0 0 2h12a1 1 0 0 0 0-2z" class="cls-2" data-name="Path 138"/>
+</svg>

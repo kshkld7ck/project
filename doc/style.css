@@ -1,0 +1,187 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%; }
+
+a {
+  color: inherit; }
+
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none; }
+
+textarea, input, button, select, option {
+  border: none;
+  font-family: inherit;
+  outline: none;
+  font-weight: inherit;
+  font-size: inherit;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+button {
+  cursor: pointer; }
+
+::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 0.3; }
+
+::-moz-placeholder {
+  color: #000000;
+  opacity: 0.3; }
+
+:-moz-placeholder {
+  color: #000000;
+  opacity: 0.3; }
+
+:-ms-input-placeholder {
+  color: #000000;
+  opacity: 0.3; }
+
+input-placeholder {
+  color: #000000;
+  opacity: 0.3; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 15px; }
+
+body {
+  color: #000000;
+  font-family: "PF DinText Pro", "Roboto", "Open Sans", Arial;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  body a {
+    text-decoration: underline; }
+    body a:hover {
+      text-decoration: none; }
+
+@font-face {
+  font-family: "PF DinText Pro";
+  src: local("PF DinText Pro");
+  src: url("fonts/DIN55__W.eot");
+  src: url("fonts/DIN55__W.eot?#iefix") format("embedded-opentype"), url("fonts/DIN55__W.woff") format("woff"), url("fonts/DIN55__W.ttf"), url("fonts/DIN55__W.woff2") format("woff2"), url("fonts/DIN55__W.svg") format("svg");
+  font-style: normal;
+  font-weight: 300; }
+
+/* Переменные */
+.uppercase {
+  text-transform: uppercase; }
+
+.center {
+  text-align: center; }
+
+.header__title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  line-height: 30px; }
+  .header__title--center {
+    text-align: center; }
+
+.header__data {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 32px; }
+  .header__data tr td {
+    width: 50%; }
+
+.header__whom {
+  font-weight: bold; }
+
+.header__address {
+  font-style: italic; }
+
+.header__who {
+  margin-top: 16px; }
+
+.page__inner {
+  padding: 72px 32px 72px 96px; }
+
+.content {
+  clear: both;
+  text-align: justify; }
+  .content__title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    line-height: 30px; }
+    .content__title--center {
+      text-align: center; }
+  .content__subtitle {
+    font-weight: bold;
+    margin-bottom: 16px; }
+    .content__subtitle--center {
+      text-align: center; }
+  .content p {
+    margin-bottom: 4px;
+    text-indent: 24px; }
+  .content__list {
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 4px;
+    list-style: decimal; }
+    .content__list li {
+      margin-left: 32px;
+      margin-bottom: 8px; }
+
+.table {
+  width: 100%; }
+  .table--signature {
+    margin-top: 72px;
+    text-align: center; }
+    .table--signature tr td {
+      padding: 24px; }

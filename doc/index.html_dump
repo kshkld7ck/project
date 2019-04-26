@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<title>Документ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+
+<!-- [if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<!--[if lt IE 9]>
+ <script>
+  var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+  for (var i = 0; i < e.length; i++) {
+    document.createElement(e[i]);
+  }
+ </script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE]><link href="/ie.css" rel="stylesheet" media="all" /><![endif]-->
+
+<!--[if IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif] -->
+
+</head>
+
+<body style="font-family: 'Times New Roman', Times, serif; font-size: 13px;line-height	
+:1.25;">
+	<table width="100%">
+		<style>
+				p {
+				font-family: "Times New Roman", Times, serif;
+				font-size: 13px;
+				text-align: justify;
+			}
+		</style>
+		<tr>
+			<td ></td>
+			<td align="left" style="padding-right: 15px;font-size: 13px;">
+				<p><b>Генеральному директору<br> ГКУ «Администратор московского<br> парковочного пространства»</b></p>
+				<p><i>125040, г. Москва, ул. Скаковая, д.19</i></p>
+				<br>
+				<p>лицо, в отношении которого ведется производство<br> об административном правонарушении:<br>$FIO</p>
+				<p>Проживает по адресу:<br>$ADRESS</p>
+				<p>контактный телефон:<br>$PHONE</p>
+				<p>aдрес электронной почты:<br>$EMAIL</p>
+			</td>
+			
+		</tr>
+		<tr>
+			<td colspan="2"><p>&emsp;&emsp;&emsp;&emsp;&emsp;</p><p>&emsp;&emsp;&emsp;&emsp;&emsp;</p></td>
+		</tr>
+		<tr >
+			<td width="100%" align="center" colspan="2">
+			<p><b>ЖАЛОБА</b></p>
+			<p><b>на постановление по делу об административном правонарушении</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;$DATE было вынесено постановление по делу об административном правонарушении № $NUMBER.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;В соответствии с данным постановлением я был(а) признан(а) виновным(ой) в совершении административного правонарушения, предусмотренного ч.2 ст.8.14 Закона города Москвы "Кодекс города Москвы об административных правонарушениях" от 21.11.2007 № 45 (далее Закон Москвы № 45), и мне было назначено наказание в виде штрафа в размере $SUM.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;Считаю данное постановление незаконным и подлежащим отмене по следующим основаниям.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;У меня было оплачено парковочное место $DATAOPLATA с $FROM по $TO на зоне парковки $ZONE, о чем имеется соответствующий чек, который я прикладываю к данной жалобе. Согласно данным фотоматериалов, приложенных к Постановлению по делу об административном правонарушении, фото сделано в $TIME. Время парковки было оплачено согласно чека до $TO. Я покинул(а) парковку в $LEAVETIME.</p>
+			</td>
+		</tr>
+			<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;Согласно п.2.6 Постановления Правительства Москвы от 17.05.2013 г. № 289-ПП "Об организации платных городских парковок в городе Москве" (далее Постановление № 289-ПП) лицо, разместившее транспортное средство на парковочном месте платной городской парковки, обязано покинуть платную городскую парковку в течение 10 минут после:</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;- фиксации снятия транспортного средства с парковочного места платной городской парковки при внесении платы путем списания денежных средств с виртуального парковочного счета пользователя;</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;- окончания предоплаченного времени в случае внесения платы через паркомат.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;В моем случае после окончания предоплаченного времени парковки прошло $DIFF минут. Таким образом, мои действия полностью соответствовали требованиям Постановления № 289-ПП и следовательно, в них отсутствует состав административного правонарушения, предусмотренного ч.2 ст.8.14 Закона Москвы № 45. Вынесенное постановление подлежит отмене.</p>
+			</td>
+		</tr>
+			<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;В ст.26.1 Кодекса Российской Федерации об административных правонарушениях от 30.12.2001 № 195-ФЗ (далее КоАП РФ) перечислены обстоятельства, подлежащие выяснению по делу об административном правонарушении.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;В силу положений ч.1 ст.1.5 КоАП РФ лицо подлежит административной ответственности только за те административные правонарушения, в отношении которых установлена его вина.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;Неустранимые сомнения в виновности лица, привлекаемого к административной ответственности, толкуются в пользу этого лица (ч.4 ст.1.5 КоАП РФ).</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;На основании ст.24.1 КоАП РФ задачами производства по делам об административных правонарушениях являются всестороннее, полное, объективное и своевременное выяснение обстоятельств каждого дела, разрешение его в соответствии с законом, обеспечение исполнения вынесенного постановления, а также выявление причин и условий, способствовавших совершению административных правонарушений.</p>
+			</td>
+		</tr>
+			<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;Согласно п.6 ч.1 ст.29.10 КоАП РФ постановление по делу об административном правонарушении должно быть мотивированным. Данные требования КоАП РФ были нарушены должностным лицом ГКУ «АМПП» при вынесении обжалуемого постановления.
+				Производство по делу об административном правонарушении не может быть начато, а начатое производство подлежит прекращению за отсутствием состава административного правонарушения (п.2 ч.1 ст.24.5 КоАП РФ).</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;Обжалуемое постановление было получено мною по почте $DATE, в связи с чем десятидневный срок обжалования, установленный ст.30.3 КоАП РФ не истек.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;На основании изложенного и в соответствии со ст.ст. 30.1 - 30.9 КоАП РФ,</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" align="center" style="font-size: 13px; line-height: 1.25" colspan="2">
+				<b>ПРОШУ</b>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<style>
+				li {
+					margin-bottom: 8px;
+					margin-left: 35px;
+					font-size: 13px;
+					font-family: "Times New Roman", Times, serif;
+					text-align: justify;
+				}
+				</style>
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;1. Отменить постановление № $NUMBER от $DATE по делу об административном правонарушении и прекратить производство по делу об административном правонарушении за отсутствием в моих действиях состава административного правонарушения.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;2. Прошу рассмотреть мою жалобу в мое отсутствие в десятидневный срок.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;3. Копию решения по жалобе на постановление направить по $TARGET.</p>	
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+				<br>
+				<p style="font-size: 13px;">&emsp;&emsp;&emsp;&emsp;&emsp;Приложение:</p>
+					<p>&emsp;&emsp;&emsp;&emsp;&emsp;Копия постановления № $NUMBER от $DATE на 2 л. в 1 экз..</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+					<p>&emsp;&emsp;&emsp;&emsp;&emsp;Копия чека об оплате на 1 л. в 1 экз.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" style="padding-left: 20px;padding-right: 15px;font-size: 13px;	 line-height: 1.25;" class="pp" align="justify" colspan="2">
+					<p>&emsp;&emsp;&emsp;&emsp;&emsp;Копия почтового конверта с датой поступления отправления в почтовое отделение.</p>
+				<br><br>
+			</td>
+		</tr>
+		<tr>
+
+			<td width="350px" align="left" style="font-size: 13px; line-height: 1.25; padding-left: 40px" colspan="2">___  __________________ 20 ____ г.<br></td>
+			
+		
+		</tr>
+		<tr><td colspan="2">&emsp;&emsp;</td></tr>
+		<tr><td colspan="2">&emsp;&emsp;</td></tr>
+		<tr><td colspan="2">&emsp;&emsp;</td></tr>
+		<tr>
+			<td width="350px" align="center" style="font-size: 13px; line-height: 1.25; padding-left: 40px" colspan="2">________________________ / $FIO	</td>
+			
+		</tr>
+
+		
+	</table>
+
+</body>
+</html>

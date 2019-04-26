@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="round-edit-24px" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#bcbcbc}
+        </style>
+    </defs>
+    <g id="Bounding_Boxes">
+        <path id="Path_126" d="M0 0h24v24H0z" class="cls-1" data-name="Path 126"/>
+    </g>
+    <g id="Rounded" transform="translate(1 1.44)">
+        <path id="Path_127" d="M3 15.851v2.7a.44.44 0 0 0 .444.449h2.7a.417.417 0 0 0 .311-.133l9.705-9.7-3.33-3.332-9.7 9.7a.436.436 0 0 0-.13.316zM18.74 6.59a.885.885 0 0 0 0-1.253l-2.08-2.08a.885.885 0 0 0-1.253 0l-1.626 1.627 3.333 3.333z" class="cls-2" data-name="Path 127"/>
+    </g>
+</svg>

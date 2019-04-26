@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 НДФЛ</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/datepicker.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    <!-- <script src="js/datepicker.js"></script> -->
+</head>
+
+<body>
+    <div class="wrapper"></div>
+    <nav>
+        <div class="container">
+            <ul class="nav-list">
+                <li class="non logo">
+                    <img src="images/logo.svg" alt="">
+                </li>
+                <li class='active_li'>Рассчет налога</li>
+                <li>Тест</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+
+            <div class=" col-lg-8 ">
+                <div class="bread_crumbs">
+                    <div class="bread_parent">
+                        <div class="main_title">
+                            <h3>Данные</h3>
+                        </div>
+                        <div class="category">
+                            <h3> Данные налогоплательщика
+                            </h3>
+
+                        </div>
+                        <div class="toggle_parent">
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button r" id="button-3">
+                                        <input type="checkbox" class="checkbox" checked>
+                                        <div class="knobs"></div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="toggle_tips">Вкл. подсказки</button>
+                </div>
+                <div class="tabs-block">
+
+                </div>
+                <div class="block">
+
+                </div>
+                <button class="next" data-id="Taxpayer_Information">Продолжить  <img src="images/arrow-right.svg" alt=""></button>
+            </div>
+            <div class="side-bar col-lg-3">
+                <a class="accordeon_open" data-target="Information_toggle">Основные данные</a>
+                <div class="Information_toggle toggle" data-name="Данные">
+                    <div class="checkbox_input_block" id="parent_information_type_checkbox1">
+                        <label for="information_toggle1">
+                    <input type="checkbox" name="information_type_checkbox" data-block="Taxpayer_Information" checked id="information_toggle1" class=""><span></span></label>
+                        <a data-block="Taxpayer_Information" class="toggler home">
+                        Данные налогоплательщика
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_information_type_checkbox1">
+                        <label for="information_toggle2">
+                    <input type="checkbox" name="information_type_checkbox" data-block="Taxpayer_category" id="information_toggle2" class=""><span></span></label>
+                        <a data-block="Taxpayer_category" class="toggler">
+                        Категория налогоплательщика, ИНН
+                                        </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_information_type_checkbox1">
+                        <label for="information_toggle3">
+                    <input type="checkbox" name="information_type_checkbox" data-block="Person_documents" id="information_toggle3" class=""><span></span></label>
+                        <a data-block="Person_documents" class="toggler">
+                        Документ удостоверяющий личность
+                                        </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_information_type_checkbox1">
+                        <label for="information_toggle4">
+                    <input type="checkbox" name="information_type_checkbox" data-block="oktmo_ifns_codes_complete" id="information_toggle4" class=""><span></span></label>
+                        <a data-block="oktmo_ifns_codes_complete" class="toggler">
+                        Коды ОКТМО и ИФНС
+                    </a>
+                    </div>
+                </div>
+                <a class="accordeon_open" data-target="income_toggle">Доходы</a>
+                <div class="income_toggle toggle" data-name="Доходы">
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox1">
+                        <label for="income_type_checkbox10">
+                            <input type="checkbox" name="income_type_checkbox" data-block="job" id="income_type_checkbox10" class=""><span></span></label> <a data-block="job" class="toggler">
+                                Работа
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox2">
+                        <label for="income_type_checkbox20">
+                                <input type="checkbox" name="income_type_checkbox" data-block="sale" id="income_type_checkbox20" class=""><span></span></label>
+                        <a data-block="sale" class="toggler">
+                                    Продажа
+                                </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox4">
+                        <label for="income_type_checkbox40">
+                            <input type="checkbox" name="income_type_checkbox" data-block="papers" id="income_type_checkbox40" class=""><span></span></label>
+                        <a data-block="papers" class="toggler">
+                                Ценные бумаги
+                            </a>
+                    </div>
+
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox3">
+                        <label for="income_type_checkbox30">
+                            <input type="checkbox" name="income_type_checkbox" data-block="service" id="income_type_checkbox30" class=""><span></span></label>
+                        <a data-block="service" class="toggler">
+                                Услуги
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox5">
+                        <label for="income_type_checkbox50">
+                            <input type="checkbox" name="income_type_checkbox" data-block="dividends" id="income_type_checkbox50" class=""><span></span></label>
+                        <a data-block="dividends" class="toggler">
+                                Дивиденды
+                            </a>
+
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox6">
+                        <label for="income_type_checkbox60">
+                            <input type="checkbox" name="income_type_checkbox" data-block="authors" id="income_type_checkbox60" class=""><span></span></label>
+                        <a data-block="authors" class="toggler">
+                                Авторы
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox7">
+                        <label for="income_type_checkbox70">
+                            <input type="checkbox" name="income_type_checkbox" data-block="prize" id="income_type_checkbox70" class=""><span></span></label>
+                        <a data-block="prize" class="toggler">
+                                Выигрыши и призы
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox11">
+                        <label for="income_type_checkbox110">
+                                <input type="checkbox" name="income_type_checkbox1" data-block="piece" id="income_type_checkbox110" class=""><span></span></label>
+                        <a data-block="piece" class="toggler">
+                                    Доля
+                                </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox8">
+                        <label for="income_type_checkbox80">
+                            <input type="checkbox" name="income_type_checkbox" data-block="percent" id="income_type_checkbox80" class=""><span></span></label>
+                        <a data-block="percent" class="toggler">
+                                Проценты
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox9">
+                        <label for="income_type_checkbox90">
+                            <input type="checkbox" name="income_type_checkbox" data-block="economy" id="income_type_checkbox90" class=""><span></span></label>
+                        <a data-block="economy" class="toggler">
+                                Экономия на процентах
+                            </a>
+                    </div>
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox10">
+                        <label for="income_type_checkbox100">
+                            <input type="checkbox" name="income_type_checkbox1" data-block="gift" id="income_type_checkbox100" class=""><span></span></label>
+                        <a data-block="gift" class="toggler">
+                                Подарки
+                            </a>
+                    </div>
+
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox12">
+                        <label for="income_type_checkbox120">
+                            <input type="checkbox" name="income_type_checkbox1" data-block="other" id="income_type_checkbox120" class=""><span></span></label>
+                        <a data-block="other" class="toggler">
+                                Прочее
+                            </a>
+                    </div>
+                </div>
+                <a class="accordeon_open" data-target="deductions_toggle">Вычеты</a>
+                <div class="deductions_toggle toggle" data-name="Вычеты">
+
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox2">
+                        <label for="cost_type_checkbox2">
+                    <input type="checkbox" name="cost_type_checkbox2" data-block="standart" id="cost_type_checkbox2" class=""><span></span></label>
+                        <a data-block="standart" class="toggler">
+                        Стандартные
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox3">
+                        <label for="cost_type_checkbox3">
+                    <input type="checkbox" name="cost_type_checkbox3" data-block="property" id="cost_type_checkbox3" class=""><span></span></label>
+                        <a data-block="property" class="toggler">
+                        Покупка недвижимости
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox4">
+                        <label for="cost_type_checkbox4">
+                    <input type="checkbox" name="cost_type_checkbox4" data-block="study_treatment_charity" id="cost_type_checkbox4" class=""><span></span></label>
+                        <a data-block="study_treatment_charity" class="toggler">
+                        Обучение лечение и благотворительность
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox5">
+                        <label for="cost_type_checkbox5">
+                    <input type="checkbox" name="cost_type_checkbox5" data-block="vznosi" id="cost_type_checkbox5" class=""><span></span></label>
+                        <a data-block="vznosi" class="toggler">
+                        Взносы
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox6">
+                        <label for="cost_type_checkbox6">
+                    <input type="checkbox" name="cost_type_checkbox6" data-block="bumagi" id="cost_type_checkbox6" class=""><span></span></label>
+                        <a data-block="bumagi" class="toggler">
+                        Ценные бумаги
+                    </a>
+                    </div>
+                    <div class="checkbox_input_block" id="cost_income_type_checkbox7">
+                        <label for="cost_type_checkbox7">
+                    <input type="checkbox" name="cost_type_checkbox7" data-block="tovarishch" id="cost_type_checkbox7" class=""><span></span></label>
+                        <a data-block="tovarishch" class="toggler">
+                        Инвестиционные товарищества
+                    </a>
+                    </div>
+                </div>
+                <a class="accordeon_open" data-target="reestr_toggle">Итоги</a>
+                <div class="reestr_toggle toggle" data-name="Итоги">
+                    <div class="checkbox_input_block" id="parent_income_type_checkbox12">
+                        <label for="itog_type_checkbox1">
+                    <input type="checkbox" name="itog_type_checkbox1" data-block="how_you_want_to_gave" id="itog_type_checkbox1" class=""><span></span></label>
+                        <a data-block="how_you_want_to_gave" class="toggler">
+
+                        Реестр документов(опись), заявления
+                                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <script>
+                // $('.input-row.datepicker .datepicker').datepicker()
+            </script>
+        </div><br>
+</body>
+
+</html>

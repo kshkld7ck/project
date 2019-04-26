@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+         let array = [{'name1':'value1'},{'name2':'value2'},{'name3':'value3'}];
+         array = JSON.stringify(array);
+fetch("doc_generation.php", {
+  method: "POST",
+  headers: {  
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+    },  
+    body: 'massiv='+array
+
+}).then(function(response){
+    // response.text().then(res => {})
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #484848;
+      }
+    </style>
+  </defs>
+  <g id="round-arrow_downward-24px" transform="translate(0 24) rotate(-90)">
+    <g id="Bounding_Boxes">
+      <path id="Path_128" data-name="Path 128" class="cls-1" d="M0,0H24V24H0Z"/>
+    </g>
+    <g id="Rounded">
+      <path id="Path_129" data-name="Path 129" class="cls-2" d="M11,5V16.17L6.12,11.29a1.008,1.008,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41l6.59,6.59a1,1,0,0,0,1.41,0l6.59-6.59a1,1,0,0,0,0-1.41h0a1,1,0,0,0-1.41,0L13,16.17V5a1,1,0,0,0-1-1h0A1,1,0,0,0,11,5Z"/>
+    </g>
+  </g>
+</svg>
